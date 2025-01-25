@@ -27,9 +27,8 @@ func drawCard(hand *[]string, deck *[]string) {
 // trying to fix error with converting the try catch statement 
 func calculateScore(hand []string) int {
 	// YOU FILL IN HERE
-	var score int = 0;
-	var hasAce bool = false;
-	card := ""
+	var score int = 0
+	var hasAce bool = false
 
 	for _, card := range hand
 	{
@@ -94,7 +93,7 @@ func calculateScore(hand []string) int {
 		}
 		else
 		{
-			scor += 11
+			score += 11
 		}
 	}
 
@@ -203,4 +202,3 @@ func main() {
 	}
 
 }
-
